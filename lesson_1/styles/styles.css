@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&family=Manrope:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+:root {
+    --background-yellow: #FFF7EB;
+    --green: #174F4B;
+    --green-dark: #FFFFFF;
+    --green-ultra-dark: #092019;
+    --green-light: #2F9C95;
+    --green-ultra-light: #40C9A2;
+    --text-primary: #FFFFFF;
+    --white: #FFFFFF;
+    --light-grey: #DDDDDD;
+    --light-background-green: #DEF7EF;
+    --dark-background-green: #EFFBF7;
+    --standard-distance-large: 64px;
+    --standard-distance-medium: 32px;
+    --standard-distance-small: 16px;
+}
+
+body {
+    font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+    background-color: var(--background-yellow);
+    padding: var(--standard-distance-medium) 0 0 0;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    margin: var(--standard-distance-medium) 0 var(--standard-distance-small) 0;
+}
+
+h3 {
+    margin: var(--standard-distance-medium) 0 var(--standard-distance-small) 0;
+}
+
+h4 {
+    margin: var(--standard-distance-large) 0 var(--standard-distance-medium) 0;
+}
+
+input, textarea, select {
+    font-family: inherit;
+}
+
+blockquote,
+table,
+caption,
+figcaption,
+abbr,
+button,
+legend,
+form {
+    font-family: 'Manrope', sans-serif;
+}
+
+abbr {
+    font-weight: 600;
+    color: var(--green-light);
+}
+
+code,
+samp {
+    font-family: 'Inconsolata', monospace;
+
+}
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+/* --------------- 3.1 General --------------------------- */
+
+img, video {
+    width: 100%;
+}
+
+main, header, footer {
+    max-width: 800px;
+    padding: 0 var(--standard-distance-medium);
+    margin: 0 auto;
+}
+
+aside {
+    position: fixed;
+    top: var(--standard-distance-medium);
+    left: var(--standard-distance-medium);
+}
+
+a, a:link, a:active {
+    color: var(--green-light);
+}
+
+hr {
+    margin: var(--standard-distance-medium) 0;
+}
+
+/* --------------- 3.2 Other --------------------------- */
+
+article p em:first-of-type {
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.7;
+}
+
+figure {
+    padding: var(--standard-distance-small) 0;
+}
+
+figcaption,
+caption {
+    font-size: 14px;
+    margin: var(--standard-distance-small) 0 0 0;
+}
+
+pre {
+    background-color: var(--green-ultra-dark);
+    padding: 0 var(--standard-distance-small);
+    line-height: 1.6;
+    border-radius: 6px;
+}
+
+pre code {
+    color: var(--green-ultra-light);
+}
+
+samp {
+    color: var(--green);
+}
+
+blockquote p {
+    border: 2px solid transparent;
+    border-left-color: var(--green-light);
+    padding-left: var(--standard-distance-small);
+}
+
+/* ------------------------------- 4. Area's --------------------------------------- */
+
+/* --------------- 4.1 Table --------------------------- */
+
+table {
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    border-collapse: collapse;
+    margin: 45px 0;
+    font-size: 14px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+    background-color: var(--green-ultra-light);
+    color: var(--white);
+    text-align: left;
+}
+
+table tbody tr {
+    border-bottom: thin solid var(--light-grey);
+}
+
+table tbody tr:nth-of-type(odd) {
+    background-color: var(--light-background-green);
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: var(--dark-background-green);
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--green-ultra-light);
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table caption {
+    caption-side: bottom;
+}
+
+/* --------------- 4.2 Form --------------------------- */
+
+form {
+    border-left-color: var(--green-ultra-light);
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+legend {
+    color: var(--white);
+    padding: 3px 6px;
+    border-radius: 2px;
+    background-color: var(--green-ultra-light);
+}
+
+fieldset::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: -2px;
+    left: 32px;
+    background-color: var(--green-ultra-light);
+}
+
+fieldset {
+    border: none;
+    position: relative;
+    padding: var(--standard-distance-medium);
+}
+
+select {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    padding: 4px 8px;
+    margin: 4px 0;
+    display: block;
+    min-width: 320px;
+    background-color: white;
+    border: 1px solid var(--light-grey);
+}
+
+label:nth-of-type(1),
+label:nth-of-type(2){
+    display: inline-block;
+}
+
+label {
+    font-size: 14px;
+}
+
+fieldset:first-of-type label + label {
+    margin: 4px 0 4px 20px;
+}
+
+button {
+    background-color: var(--green-ultra-light);
+    cursor: pointer;
+    color: var(--white);
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* ------------------------------- 5. Media-queries --------------------------------------- */
+
+@media screen and (max-width: 1500px) {
+    aside {
+        position: static;
+    }
+}
+
