@@ -1,0 +1,32 @@
+body {
+    background-color:lightpink;
+}
+
+h1 {
+    font-family: Tahoma, Georgia, sans-serif;
+    color:brown;
+    font-size: 12px;
+}
+
+.highlighted-article {
+    text-align: center;
+}
+
+ul a {
+    text-decoration: none;
+    color:black
+}
+
+ul a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+ul a:visited {
+    text-decoration: none;
+    color:red;
+}
+
+ul li {
+    list-style-type: none;
+}

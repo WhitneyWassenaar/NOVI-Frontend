@@ -1,0 +1,66 @@
+/* ======================================================
+   OEFENEN MET CSS SELECTORS
+========================================================= */
+
+/* 0: Voorbeeld: maak de achtergrondkleur van de pagina wit */
+
+body {
+    background-color: white;
+}
+
+/* 1: Geef de twee <h3>-tags van de artikelen ("Latest articles") in het HTML-document beiden de class-naam "article-title".
+Gebruik dit om de tekstkleur van de titels te veranderen naar grijs, met de declaratie "color: grey;" */
+.article-title {
+    color:grey;
+}
+
+/* 2: Geef de <span>-tag in de footer van het HTML-document een passende class-naam. Gebruik de declaratie "font-size: 10px;"
+om de tekst kleiner te maken */
+.footer-span {
+    font-size: 10px;
+}
+
+/* 3: Gebruik een type selector om alle headings op de pagina (<h1>, <h2> en <h3>) in een ander lettertype weer te geven.
+Gebruik de declaratie "font-family: 'Noto Sans JP', sans-serif;" */
+h1,h2,h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* 4: De header afbeelding is op dit moment te groot. Geef de <img>-tag in de header van het HTML-document een passende id-naam,
+zodat we de declaratie "width: 100%;" in de CSS erop toe te passen */
+#header-image {
+    width:100%;
+}
+
+/* 5: Er staan meerdere links in het document. Zorg ervoor dat alléén de links in de navigatiebalk de tekstkleur "indianred" krijgen.
+Tip: gebruik hier een combinator voor */
+nav a{
+    color:indianred;
+}
+
+/* 6: Zorg ervoor dat alle de links binnen de <main>-tag naar de tekstkleur "darkgreen" veranderen, wanneer je er met jouw muis
+overheen hovert. Tip: hergebruik hier naast een combinator ook een pseudo-class voor. */
+main a:hover {
+    color:darkgreen;
+}
+
+/* 7: Geef alle list-items onder het kopje <h2>Best places to visit</h2> de tekstkleur "forestgreen".
+Tip: gebruik hier een combinator voor. */
+.places-to-visit li {
+    color:forestgreen;
+}
+
+/* 8: De buttons lijken op dit moment te veel op elkaar. Zorg ervoor dat je de rechter button een achtergrondkleur van "indianred"
+kunt geven. Tip: gebruik hier een combinator voor. */
+form button + button {
+    background-color:indianred;
+}
+
+/* 9: Geef de <input>-tag van het formulier van het HTML-document een passende class-naam. Zorg ervoor dat dit veld de
+achtergrondkleur "forestgreen" krijgt, wanneer de gebruiker het veld aanklikt.
+Tip: gebruik hier naast een class-selector, ook een pseudo-class voor.*/
+.email-field:focus{
+    background-color:forestgreen;
+}
+
+

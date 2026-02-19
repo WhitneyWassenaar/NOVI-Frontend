@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form, inputs, labels</title>
+</head>
+<body>
+<form onsubmit="hier-hebben-we-javascript-voor-nodig">
+    <!-- alle invoervelden staan hier! -->
+
+    <button type="reset">
+        Annuleren
+    </button>
+
+    <button type="submit">
+        Verzenden
+    </button>
+
+</form>
+
+<button type="button">
+    Button is outside this form!
+    If you forget type-attribute, the button will think it is just a form-button.
+</button>
+
+<button type="button" disabled="disabled">
+    This button is unclickable
+    webstorm suggests to use disabled="disabled" instead of disabled="true" shown in the EdHub.
+</button>
+<p>submit: All data in the input fields within the form will be sent</p>
+    <p>reset: All data in inout fields are emptied</p>
+
+<!-- label en input los van elkaar -->
+<label for="user-email-field">Email:</label>
+<input type="email" id="user-email-field"/>
+
+<!-- label en input genest -->
+<label for="user-newsletter-field">
+    <input type="checkbox" id="user-newsletter-field" />
+    Ik wil de nieuwsbrief ontvangen
+</label>
+
+<p>Dit is een tekstveld</p>
+<input type="text" />
+
+<p>Dit is een emailveld</p>
+<input type="email" />
+
+<p>Dit is een wachtwoordveld</p>
+<input type="password" />
+
+<p>Dit is een checkbox</p>
+<input type="checkbox" />
+
+<p>Dit is een radiobutton</p>
+<input type="radio" />
+
+<p>Dit is een slider</p>
+<input type="range" />
+
+<p>Dit is een nummeriek veld</p>
+<input type="number" />
+
+<p>Dit is een datumveld</p>
+<input type="date" />
+
+<p>Dit is een bestandsupload</p>
+<input type="file" />
+
+<p>Dit is een kleurkiezer</p>
+<input type="color" />
+
+<p>Dit emailveld heeft een placeholder en verplicht minimaal 10 karakters</p>
+<input type="email" placeholder="Bijvoorbeeld test@gmail.com" minLength="10" />
+
+<p>Deze checkbox staat permanent aan</p>
+<input type="checkbox" checked="true"/>
+
+<p>Dit is een tekstveld met een ingevulde waarde</p>
+<input type="text" value="Ik heb een ingevulde waarde!"/>
+
+<p>Dit is een nummeriek veld waarin de gebruiker alleen waardes tussen 5 en 10 mogen invullen</p>
+<input type="number" min="5" max="10" />
+
+
+</body>
+</html>

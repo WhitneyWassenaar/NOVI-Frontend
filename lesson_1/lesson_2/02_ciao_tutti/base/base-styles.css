@@ -1,0 +1,44 @@
+/* --------- VERANDER NIETS IN DIT BESTAND ----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap');
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    border-bottom: 1px dotted hsl(4, 0%, 82%);
+}
+
+footer {
+    border-top: 1px dotted hsl(4, 0%, 82%);
+    margin: 32px 0;
+    padding: 32px 0;
+}
+
+main > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    outline: none;
+}
+
+.subscribe,
+.places-to-visit {
+    width: 350px;
+}
