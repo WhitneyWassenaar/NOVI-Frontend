@@ -13,4 +13,4 @@ Het project bevat de volgende bestanden:
 * Je hoeft niet naar `base-styles.css` te kijken: dit is enkel toegevoegd om de pagina van basis-opmaak te voorzien. Hier mag je dus niets in aanpassen en is niet relevant voor de opdracht.
 
 ## Eindresultaat
-![screenshot](./assets/screenshot-ciao-tutti.png)
+![screenshot](assets/screenshot-ciao-tutti.png)
