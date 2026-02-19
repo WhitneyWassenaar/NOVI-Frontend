@@ -3,7 +3,7 @@
 ## Eindresultaat
 Je bent er nu helemaal klaar voor om al deze nieuw-geleerde stijlregels in de praktijk te brengen. Wellicht moet je een paar keer terug om de desbetreffende paragraaf te raadplegen, maar dat is helemaal niet erg! Het eindresultaat zal er zo uit komen te zien:
 
-![screenshot](./exercise-css-1.png)
+![screenshot](exercise-css-1.png)
 
 ## Opdrachtbeschrijving
 Zorg ervoor dat jouw pagina er precies zo uit komt te zien als de pagina in het voorbeeld. Je mag **niets** veranderen in de aangeleverde HTML, behalve het toevoegen van `class` of `id`-attributen. Let hierbij op de volgende dingen:

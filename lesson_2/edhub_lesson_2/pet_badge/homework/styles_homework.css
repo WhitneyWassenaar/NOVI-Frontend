@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+/* I should use classes because if my website had multiple articles with h2 elements and images, using element selectors would apply the same styles to all of them.*/
+/*color should be in .pet-name selector*/
+article {
+    display:inline-block;
+    color: #A96D61;
+    background-color: #EAD8C7;
+    padding:32px;
+    box-shadow:10px 10px 10px hsl(0,0%,90%); /*box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10)*/
+    border-radius:10px 10px 10px 10px; /*border-radius:8px*/
+
+}
+/* font-family: 'Oleo Script Swash Caps', cursive; font-size:60px;*/
+h2 {
+    font-family: "Oleo Script Swash Caps", system-ui;
+    margin:0;
+    text-align:center;
+    font-size:50px;
+}
+
+/*border-color is unnecessary border: 8px solid #A96D61;*/
+article img {
+    border-color:#A96D61;
+    border-radius:50%;
+    width:300px;
+    border: 8px solid;
+    margin-bottom:10px;
+}
