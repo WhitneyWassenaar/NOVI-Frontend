@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+.product {
+    margin: 80px auto;
+    width: 350px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*#DE6127 #e8e8e8 #737373 , bolletjes #faa0c7 #272729, #928471 en #c2c2b4*/
+.elements-product {
+    position: relative;
+}
+
+.product-image {
+    width: 100%;
+}
+.fav-icon {
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    height:15px;
+}
+.info-product {
+
+}
+.wrapper{
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -70px;
+    top:60px;
+    text-transform: uppercase;
+
+}
+.label {
+    background-color: #e8e8e8;
+    padding: 10px 25px 10px 25px;
+    font-weight: 300;
+    color:#DE6127;
+    font-size: 1.2375em;
+
+}
+
+.price {
+ font-weight: 600;
+}
+
+.model-name {
+ color: #737373;
+ font-size: 14px;
+ margin: 0;
+
+}
+
+.product-name {
+ font-size: 18px;
+ margin: 0;
+
+}
+
+.color-pink {
+ display: inline-block;
+ height: 20px;
+ width: 20px;
+ background-color: #faa0c7;
+ border-radius: 50%;
+}
+
+.color-darkgrey {
+ display: inline-block;
+ height: 20px;
+ width: 20px;
+ background-color: #272729;
+ border-radius: 50%;
+}
+
+.color-brown{
+ display: inline-block;
+ height: 20px;
+ width: 20px;
+ background-color: #928471;
+ border-radius: 50%;
+}
+
+.color-grey{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: #c2c2b4;
+  border-radius: 50%;
+}
