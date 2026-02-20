@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/*///////////////////////////////////////////////
+Table of Contents
+1. Global Styles
+2. Typography
+3. Areas
+    3.1 Header
+    3.2 Introduction
+    3.3
+
+ //////////////////////////////////////////////*/
+
+/*-------------------------- 1. Global Styles ----------------------*/
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*-------------------------- 2. Typography ----------------------*/
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+input,
+button {
+    font-family: inherit;
+}
+
+a,
+a:link,
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #A7C9C8;
+}
+
+/*-------------------------- 3. Area ----------------------*/
+/*-------------------------- 3.1 Header ----------------------*/
+
+.header-section {
+    color: #FFF;
+    background-color: #17403F;
+    text-align: center;
+    padding:150px 0 150px 0;
+    position: relative;
+}
+
+.header-section h1 {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.header-section p {
+    color: #A7C9C8;
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 12px 0 30px 0;
+}
+
+.header-section button + a {
+    margin-left: 24px;
+}
+
+.header-section button {
+    background-color: #FFF;
+    color: #17403F;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 24px;
+}
+
+.header-image {
+    max-width: 900px;
+    position: absolute;
+    left: calc(50% - 450px);
+    bottom: -250px;
+}
+/*-------------------------- 3.2 Introduction ----------------------*/
+.introduction-section {
+    max-width:900px;
+    margin: 300px auto 10px auto;
+}
+.usp-article {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    min-width:200px;
+}
+.usp-article h2{
+    font-size: 34px;
+}
+
+.usp-article p {
+    color: #607373;
+}
