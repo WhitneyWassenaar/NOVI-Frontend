@@ -373,9 +373,9 @@ Gebruik de huidige grid-area namen om de items aan de grid toe te wijzen met beh
 
 Resize jouw scherm en bekijk jouw CSS Grid in actie!
 
-Aanpassingen:
+## Opnieuw code opschonen:
 - Ik heb de items ook eigen ID's gegeven.
-- In plaats van ``.container div`` heb ik er de class .item van gemaakt, dat is wat specifieker
+- In CSS heb ik in plaats van ``.container div`` de class ``.item`` van gemaakt, dat is wat specifieker
 ```css
 * {
     margin:0;
