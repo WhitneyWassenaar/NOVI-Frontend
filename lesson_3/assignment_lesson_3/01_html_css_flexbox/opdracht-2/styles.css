@@ -1,0 +1,198 @@
+/* ------------------------------- 1. Global Styles -------------------------------- */
+body {
+    height: 100vh;
+    display: flex;
+}
+
+main {
+
+    overflow: auto;
+    flex:3 1 500px;
+}
+
+.body-wrapper {
+    display: flex;
+   flex-direction: column;
+    flex:10 1 500px;
+
+}
+/* ------------------------------- 2. Typography ----------------------------------- */
+.main-content-title {
+    font-size: 40px;
+}
+/* ------------------------------- 3. Elements --------------------------------------- */
+
+/* --------------- 3.1 Navbar ------------------------- */
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex: 1 1 250px;
+    min-width:250px;
+    padding: 15px;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+
+    gap:10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+
+}
+
+.nav-list {
+    font-size: 15px;
+
+}
+
+.nav-list img{
+    width:15px;
+    height:15px;
+}
+
+.nav-list a {
+    background-color: transparent;
+}
+
+.nav-list li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 4px 0 10px;
+    border-radius: 6px;
+    transition: background-color 0.5s ease;
+}
+
+.nav-list li:hover {
+    background-color: #e3e3e3; /* voorbeeldkleur bij hover */
+
+    transition: background-color 0.5s ease;
+}
+
+/* --------------- 3.2 Links ------------------------- */
+/* --------------- 3.3 Buttons ------------------------- */
+
+.login-button {
+    background-color: #383838;
+    color: #FFF;
+    border: 1px solid #000;
+}
+
+.nav-login-signup-buttons {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.nav-login-signup-buttons li button{
+    width: 100%;
+    transition: background-color 0.5s ease;
+}
+
+.sign-in-button:hover{
+    background-color: hsl(0, 0%, 0%);
+    transition: background-color 0.5s ease;
+    color: white;
+}
+
+.login-button:hover{
+    background-color: hsl(0, 10%, 0%);
+    transition: background-color 0.5s ease;
+}
+.product-card button {
+    transition: background-color 0.5s ease;
+}
+.product-card button:hover {
+    background-color: hsl(0, 10%, 0%);
+    color: #FFFFFF;
+    transition: background-color 0.5s ease;
+}
+
+/* --------------- 3.4 Cards ------------------------- */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FFF;
+    flex: 1 1 260px;
+    max-width: 260px;
+    gap:40px;
+}
+
+.product-card button {
+    width: 100%;
+}
+
+.product-card p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.product-card .card-icon {
+    width: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 6px;
+
+}
+/* --------------- 3.5 Header ------------------------- */
+
+header {
+    background-image: url(../assets/placeholder-image.svg);
+    background-position: center;
+    flex: 1 1 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* --------------- 3.6 Footer ------------------------- */
+footer {
+    background-color: #383838;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+/* --------------- 3.7 Main content ------------------------- */
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding:70px;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+

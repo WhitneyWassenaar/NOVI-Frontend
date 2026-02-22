@@ -1,0 +1,100 @@
+/*----------------Opdracht 1a----------------*/
+.navbar-one ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+/*----------------Opdracht 1b----------------*/
+.navbar-two ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+/*----------------Opdracht 1c----------------*/
+
+/*----------------Toegevoegd-----------------*/
+/* - class: "novi-futuristic-inc-logo" */
+/* - Gap:10px om afstand tussen logo-afbeelding en logo-tekst te bepalen.*/
+
+.navbar-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-three .novi-futuristic-inc-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.navbar-three ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/*----------------Opdracht 1d----------------*/
+
+/*----------------Toegevoegd-----------------*/
+/* - Class: "nav-items", "nav-buttons"
+/* - Div met class: "wrapper" die de elementen met de class: "nav-items" en "novi-futuristic-inc-logo" scheiden van de ul element met de class: "nav-buttons" d.m.v. "justify-content: space-between" in "navbar-four" */
+/* - Gap:30px om ruimte te creëren tussen de logo en de menu items in de wrapper*/
+
+.navbar-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px ;
+}
+
+.navbar-four .novi-futuristic-inc-logo {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-four .nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-four .nav-buttons {
+    display: flex;
+    align-items: center; /*Ik heb gezien dat de 2 buttons niet dezelfde hoogte hebben dus om gecentreerd uit te lijnen over de verticale as heb ik align-items gebruikt.*/
+    gap:10px;
+    list-style-type: none;
+}
+
+/*----------------Opdracht 1e----------------*/
+
+/*----------------Toegevoegd-----------------*/
+/* - Ik heb alleen de div met de class: "wrapper" weggelaten die ik in opdracht 1d wel had gebruikt.*/
+.navbar-five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-five .novi-futuristic-inc-logo {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-five .nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-five .nav-buttons {
+    display: flex;
+    align-items: center; /*Ik heb gezien dat de 2 buttons niet dezelfde hoogte hebben dus om gecentreerd uit te lijnen over de verticale as heb ik align-items gebruikt.*/
+    gap:10px;
+    list-style-type: none;
+}

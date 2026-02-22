@@ -1,0 +1,115 @@
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..900;1,14..32,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+body {
+    font-family: Inter, Arial, sans-serif;
+    color: #383838;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+button, input {
+    font-family: inherit;
+}
+
+/* ------------------------------- 3. Elements --------------------------------------- */
+
+/* --------------- 3.1 Navbar ------------------------- */
+
+nav {
+    background-color: #f3f3f3;
+    border-right: 1px solid #e0e0e0;
+    /*We gebruiken padding in de navigatiebalk zodat de items er nooit "uit" kunnen vallen,
+    zoals bij een vaste height-property wel kan gebeuren.*/
+    padding: 20px;
+}
+
+nav + nav {
+    margin: 90px 0;
+}
+
+nav p {
+    font-weight: 700;
+}
+
+/* --------------- 3.2 Links ------------------------- */
+
+a,
+a:visited,
+a:link {
+    padding: 12px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #383838;
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: #e3e3e3;
+}
+
+a.active {
+    background-color: #e3e3e3;
+}
+
+a > img {
+    width: 16px;
+}
+
+/* --------------- 3.3 Buttons ------------------------- */
+
+button {
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.button-primary {
+    border: 2px solid #383838;
+    background-color: white;
+}
+
+.button-secondary {
+    background-color: #383838;
+    border: none;
+    color: #e3e3e3;
+}
+
+.button-primary:hover {
+    background-color: #e3e3e3;
+}
+
+.button-secondary:hover {
+    color: white;
+}
+
+/* --------------- 3.4 Cards ------------------------- */
+
+article {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0 3px 8px;
+}
+
+article h2 {
+    font-size: 18px;
+}
+
+article p {
+    font-size: 14px;
+}
